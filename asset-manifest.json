@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ArtGallery/static/css/main.2f56dc46.css",
+    "main.js": "/ArtGallery/static/js/main.8a703052.js",
+    "static/js/787.fd246bcc.chunk.js": "/ArtGallery/static/js/787.fd246bcc.chunk.js",
+    "static/media/景物.jpg": "/ArtGallery/static/media/景物.aabebc760ee5b9a7a95e.jpg",
+    "static/media/風景.jpg": "/ArtGallery/static/media/風景.5353c69b3f2976e3f578.jpg",
+    "static/media/抽象.jpg": "/ArtGallery/static/media/抽象.64406571b70242b99ece.jpg",
+    "static/media/圖畫.jpg": "/ArtGallery/static/media/圖畫.52aa94eb7298eb658f72.jpg",
+    "static/media/樹.jpg": "/ArtGallery/static/media/樹.60f1c410b0b411753023.jpg",
+    "static/media/大理石.jpg": "/ArtGallery/static/media/大理石.3801279005bf6ec61653.jpg",
+    "static/media/植物.jpg": "/ArtGallery/static/media/植物.2504b877ac4c6116c6ae.jpg",
+    "static/media/船.jpg": "/ArtGallery/static/media/船.08acd7148fbac1a0de39.jpg",
+    "index.html": "/ArtGallery/index.html",
+    "main.2f56dc46.css.map": "/ArtGallery/static/css/main.2f56dc46.css.map",
+    "main.8a703052.js.map": "/ArtGallery/static/js/main.8a703052.js.map",
+    "787.fd246bcc.chunk.js.map": "/ArtGallery/static/js/787.fd246bcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f56dc46.css",
+    "static/js/main.8a703052.js"
+  ]
+}
