@@ -1,0 +1,51 @@
+@import "../../styles/rwd.scss";
+
+.navbar {
+  background-color: #383838;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-btn,
+.menu-btn-wrap {
+  display: none;
+  @include pad {
+    display: block;
+  }
+}
+
+.logo {
+  font-weight: bold;
+  text-shadow: 1px 0px 1px black;
+  font-size: 1.25rem;
+}
+
+.nav-wrap {
+  margin-left: -7%;
+  @include pad {
+    display: none;
+  }
+  > a {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0 10px;
+  }
+}
+
+.cart-btn {
+  > span {
+    background-color: #9b9b9b;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+}

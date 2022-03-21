@@ -1,0 +1,61 @@
+@import "../../../styles/rwd.scss";
+.product {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.product-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  @media (max-width: 640px) {
+    height: 150px;
+  }
+}
+
+.product-info {
+  margin: 8px 0;
+  font-size: 0.8rem;
+  > div {
+    padding: 1px;
+    display: flex;
+    border-bottom: 1px solid #d6d3d1;
+    > p {
+      min-width: 40px;
+    }
+    > span {
+      margin: 0 5px;
+    }
+  }
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 5px auto;
+  border-radius: 30px;
+
+  > button {
+    width: 35px;
+    font-weight: bold;
+  }
+  > span {
+    flex: 2;
+    text-align: center;
+  }
+}
+
+.product-add-cart-btn {
+  color: white;
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0 0;
+  border-radius: 30px;
+  background-color: #acacac;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #747474;
+  }
+}

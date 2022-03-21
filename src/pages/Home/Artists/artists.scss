@@ -1,0 +1,19 @@
+@import "../../../styles/rwd.scss";
+
+.artists-container {
+  margin: 0 auto 20px;
+  width: 80%;
+  max-width: 850px;
+}
+.artists-wrap {
+  margin: auto;
+}
+
+.artist {
+  padding: 20px;
+  cursor: pointer;
+  @media (max-width: 640px) {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
