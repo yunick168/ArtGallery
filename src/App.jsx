@@ -16,11 +16,12 @@ const App = () => {
       <SideNav />
       <main className='main-container'>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/ArtGallery/" element={<Home />}></Route>
           <Route path='/Products' element={<Products />}></Route>
           <Route path='/Cart' element={<Cart />}></Route >
           <Route path='/Artists' element={<Artists />}></Route >
           <Route path='/Artists/:id' element={<ArtistID />} />
+          <Route path='*' element={<Home />} />
         </Routes>
       </main>
       <Footer />
