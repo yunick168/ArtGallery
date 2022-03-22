@@ -34,7 +34,7 @@ const SideNav = () => {
 const Links = () => {
   return (
     <nav className='side-nav-wrap'>
-      <Link to="/">首頁</Link>
+      <Link to="/ArtGallery">首頁</Link>
       <Link to="Products">畫廊</Link>
       <Link to="Artists">藝術家</Link>
     </nav>
