@@ -16,7 +16,7 @@ const App = () => {
       <SideNav />
       <main className='main-container'>
         <Routes>
-          <Route path="/ArtGallery/" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path='/Products' element={<Products />}></Route>
           <Route path='/Cart' element={<Cart />}></Route >
           <Route path='/Artists' element={<Artists />}></Route >
